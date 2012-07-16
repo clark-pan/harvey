@@ -153,7 +153,7 @@ class this.Harvey
       @style = document.createElement('style')
       document.getElementsByTagName('head')[0].appendChild(@style)
 
-    @style.appendChild(document.createTextNode("@media #{mediaQuery} {.harvey-test{}}"))
+    @style.text = "@media #{mediaQuery} {.harvey-test{}}"
 
 
 ###
